@@ -20,7 +20,7 @@
   flex-direction: column;
 }
 .harmonics hs-partial {
-  flex: 1 1 0;
+  flex: 1;
   font-size: 0.8rem;
 }
 .harmonics hs-partial.even {
