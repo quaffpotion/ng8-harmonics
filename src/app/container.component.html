@@ -1,0 +1,9 @@
+
+  <div class="harmonics">
+    <hs-partial *ngFor="let partial of partials;
+                        let i = index;
+                        let evn = even;
+                        trackBy: trackPartial"
+                [class.even]="evn">
+    </hs-partial>
+  </div>
